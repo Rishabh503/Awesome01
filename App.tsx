@@ -5,7 +5,7 @@ function App() {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.text}>Hi Hello</Text>
-      <Button title='Press me  hard yes its working ff okk so we can do this'/>
+      <Button title='Press me  hard yes its working ff okk shho we can do this'/>
       <Button title='Nice it works ' color='#00000f'/>
       <Switch />
     </SafeAreaView>
