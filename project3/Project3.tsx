@@ -66,6 +66,7 @@ export default function Project3() {
           initialValues={{ passwordLength: '' }}
           validationSchema={PasswordScehma}
           onSubmit={(values) => {
+            console.log(values);
             generatePasswordString(Number(values.passwordLength));
           }}
         >

@@ -9,5 +9,6 @@ import AppPro from './AppPro';
 import AppThree from './components/AppThree';
 import Practice from './Practice';
 import Project3 from './project3/Project3';
+import BackgroundChanger from './project4/BackgroundChanger';
 
-AppRegistry.registerComponent(appName, () => Project3);
+AppRegistry.registerComponent(appName, () => BackgroundChanger);
