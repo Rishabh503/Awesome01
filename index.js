@@ -11,5 +11,7 @@ import Practice from './Practice';
 import Project3 from './project3/Project3';
 import BackgroundChanger from './project4/BackgroundChanger';
 import DiceRoller from './project5/DiceRoller';
+import Main from './project6/Main.tsx';
+// import Main from './project6/Main.tsx';
 
-AppRegistry.registerComponent(appName, () => DiceRoller);
+AppRegistry.registerComponent(appName, () =>Main );
